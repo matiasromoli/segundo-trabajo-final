@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+*,
+*::after,
+*::before {
+    font-family: 'Heebo', sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: #D65A31;
+    user-select: none;
+    padding: 0px 30px;
+    display: flex;
+    height: 60px;
+}
+
+header>ul {
+    justify-content: right;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+header>ul>li {
+    list-style: none;
+    padding: 0px 10px;
+}
+
+header>ul>p {
+    padding: 0px 10px;
+    color: #222831;
+}
+
+header>ul>li>a {
+    text-decoration: none;
+    color: #EEEEEEEE;
+}
+
+header>ul>img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 45px;
+    width: 45px;
+}
+
+.conteiner {
+    height: calc(100vh - 60px);
+    background-color: #EEE;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.p-body {
+    background-color: #D65A31;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    height: 300px;
+    width: 200px;
+}
+
+.p-body>img {
+    object-fit: cover;
+    height: 150px;
+    width: 100%;
+}
+
+.text-content {
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 10px;
+    display: flex;
+    height: 80px;
+    /*colors*/
+    color: #EEE;
+}
+
+.text-content p {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.btn-carrito {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 70px;
+}
+
+.btn-carrito>p {
+    background-color: #222831;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: #EEE;
+
+}

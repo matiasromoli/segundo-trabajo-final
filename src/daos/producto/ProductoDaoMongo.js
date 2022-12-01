@@ -1,4 +1,4 @@
-import { ProductoMongoDb } from "../../container/mongo.js";
+import { ProductoMongoDb } from "../../container/db/mongo.js";
 
 class ProductosDaoMongoDb extends ProductoMongoDb {
   constructor() {

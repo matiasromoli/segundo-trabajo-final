@@ -1,0 +1,16 @@
+<form method="POST" action="/register" enctype="multipart/form-data">
+    <div class="data">
+        <h2> Registrate </h2>
+    </div>
+    <input type="text" name="nombre" autocomplete="off" placeholder="Por favor, ingrese su usuario." />
+    <input type="password" name="password" autocomplete="off" placeholder="Por favor, ingrese su contraseña." />
+    <input type="email" name="email" autocomplete="off" placeholder="Por favor, ingrese su correo." />
+    <input type="text" name="address" autocomplete="off" placeholder="Por favor, ingrese su dirección." />
+    <input type="tel" name="phone" autocomplete="off" placeholder="Por favor, ingrese su télefono." />
+    <label> Seleccione su avatar </label>
+    <input type="file" name="image" />
+    <input type="submit" value="Submit" autocomplete="off" />
+    <div class="paragraph">
+        <p> ¿Ya estás registrado? <a href="/"> Login </a></p>
+    </div>
+</form>

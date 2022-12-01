@@ -11,6 +11,7 @@ export const deleteCarrito = async (req, res) => {
 
 export const postAgregarCarrito = async (req, res) => {
   res.json(await carritoApi.agregarProductoCarrito(req.params.id, req.body.id));
+  console.log(req.body);
 };
 
 export const getMostrarCarrito = async (req, res) => {

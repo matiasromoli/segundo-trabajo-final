@@ -1,8 +1,8 @@
-let data = "default";
+let modo = "mongo";
 let productosDao;
 let carritoDao;
 
-switch (data) {
+switch (modo) {
   case "json":
     const { default: ProductoDaoArchivo } = await import(
       "../daos/producto/ProductoDaoArchivo.js"

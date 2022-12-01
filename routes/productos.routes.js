@@ -8,7 +8,6 @@ import {
 const productos = express.Router();
 import express from "express";
 
-//middleware
 function rutaProtegida(req, res, next) {
   if (!process.env.ADM) {
     res.status(403).json({ msg: "No puede realizar dicha acción." });
@@ -21,7 +20,7 @@ function rutaProtegida(req, res, next) {
 
 productos.get("/", getProductos);
 productos.get("/:id", getProductosIdent);
-productos.post("/", rutaProtegida, postNuevoProducto);
+productos.post("/", postNuevoProducto);
 productos.put("/:id", rutaProtegida, putEditarProducto);
 productos.delete("/:id", rutaProtegida, delEliminarProducto);
 

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/css/profile.css" />
+    <meta charset="UTF-8">
+    <title> Profile </title>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <img src="<%- user.image %>" />
+            <p>
+                <%- user.name %>
+            </p>
+            <li><a href="/carrito"> Carrito </a></li>
+            <li><a href="/logout"> Logout </a></li>
+        </ul>
+    </header>
+    <div class="conteiner">
+        <%- include ("../models/productos.ejs") %>
+    </div>
+</body>
+<script>
+    const carrito = document.getElementById("carrito");
+    carrito.addEventListener("click", (e) => {
+        agregarCarrito();
+    })
+
+    function agregarCarrito() {
+
+        fetch("http://localhost:8080/api/carrito/638764b22b293a76d250f611/productos", {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({})
+        })
+    }
+
+</script>
+
+</html>

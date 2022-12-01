@@ -1,10 +1,11 @@
-import config from "../../config/config.js";
+import { config } from "../../../config/config.js";
+import { logger } from "../../../utils/logger.js";
 import mongoose from "mongoose";
 
-// conected database
-await mongoose
-  .connect(config.mongodb.uri, config.mongodb.options)
-  .then(() => console.log("Base de datos inicializada con éxito."));
+(async () => {
+  const db = await mongoose.connect(config.mongodb.uri, config.mongodb.options);
+  db ? logger.info("Connected Mongo DB") : null;
+})();
 
 export class ProductoMongoDb {
   constructor(nameCollection, schema) {
@@ -104,11 +105,9 @@ export class CarritoMongoDb {
   //productos
   async agregarProductoCarrito(id, productoID) {
     try {
-      // traer productos
       const product = new ProductoMongoDb("producto");
       const p = await product.listarProductoIdent(productoID);
 
-      // Guardar en carrito
       await this.collection.findByIdAndUpdate(id, {
         $push: { producto: p },
       });

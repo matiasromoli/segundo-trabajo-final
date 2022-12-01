@@ -1,10 +1,14 @@
-export default {
+export const config = {
+  env: process.env.PASSPORT,
   mongodb: {
-    uri: "mongodb://localhost:27017/ecommerce",
+    uri: process.env.MONGO_URI,
     options: {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     },
+  },
+  passport: {
+    secret: process.env.SECRET_PASSPORT,
   },
   firebase: {
     url: {
