@@ -10,10 +10,10 @@ const __dirname = URL(import.meta.url);
 import path from "path";
 
 import session from "express-session";
+import "./utils/passport/passport.js";
 import passport from "passport";
-import "./utils/passport.js";
 
-import { logger } from "./utils/logger.js";
+import { logger } from "./utils/log/logger.js";
 
 app.use(
   session({
@@ -27,8 +27,8 @@ app.use(
 
 app.use(passport.session());
 
-app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 import multer from "multer";
 

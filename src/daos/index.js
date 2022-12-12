@@ -1,4 +1,6 @@
-let modo = "mongo";
+import { config } from "../../config/config.js";
+
+let modo = config.modo;
 let productosDao;
 let carritoDao;
 

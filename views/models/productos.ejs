@@ -1,26 +1,27 @@
-<% if(products.length) { %>
-    <% products.forEach(function (p) { %>
-        <div class="p">
-            <div class="p-body">
-                <img src="<%- p.foto %>" />
-                <div class="text-content">
-                    <p class="p-text">
-                        <%= p.nombre %>
-                    </p>
-                    <p class="p-text">
-                        Precio: $<%= p.precio %>
-                    </p>
-                </div>
-                <div class="btn-carrito">
-                    <p id="carrito"> Agregar al carrito </p>
-                </div>
-            </div>
-        </div>
-        <% }) %>
-            <% } else { %>
-                <div class="not-data">
-                    <div class="data-upload">
-                        <p> No existen productos </p>
-                    </div>
-                </div>
-                <% } %>
+<% if(productos.length) { %> <% productos.forEach(function (p) { %>
+<div class="p">
+  <div class="p-body">
+    <img src="<%- p.foto %>" />
+    <div class="text-content">
+      <p class="p-text"><%= p.nombre %></p>
+      <p class="p-text">Precio: $<%= p.precio %></p>
+    </div>
+    <% carritos.forEach(function (c) { %>
+    <form
+      class="btn-carrito"
+      method="POST"
+      action="http://localhost:8080/api/carrito/<%- c.id %>/productos"
+    >
+      <% }) %>
+      <input type="hidden" name="id" value="<%- p.id %>" />
+      <input type="submit" value="Agregar carrito" />
+    </form>
+  </div>
+</div>
+<% }) %> <% } else { %>
+<div class="not-data">
+  <div class="data-upload">
+    <p>No existen productos</p>
+  </div>
+</div>
+<% } %>

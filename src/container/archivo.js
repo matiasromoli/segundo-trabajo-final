@@ -120,8 +120,6 @@ export class Carrito {
     }
   }
 
-  // productos
-
   async agregarProductoCarrito(ident, productoID) {
     const listaDeCarritos = await this.listarCarrito();
     if (!listaDeCarritos[ident - 1]) return `El carrito: ${ident} no existe.`;

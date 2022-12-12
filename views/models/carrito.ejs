@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="/css/profile.css" />
-    <meta charset="UTF-8">
-    <title> Carrito </title>
-</head>
+    <meta charset="UTF-8" />
+    <title>Carrito</title>
+  </head>
 
-<body>
-    <div class="conteiner">
+  <body>
+    <div class="c-conteiner">
+      <form class="form" method="POST" action="/carrito/<%- ident %>/buy">
+        <div class="c-h2">
+          <h2>Carrito de compras:</h2>
+        </div>
+        <div class="c-body">
+          <% productoCarrito.forEach(function (c) { %>
+          <div>
+            <img src="<%- c.foto %>" />
+            <div class="text-content">
+              <p class="p-text"><%= c.nombre %></p>
+              <p class="p-text">Precio: $<%= c.precio %></p>
+            </div>
+          </div>
+          <input type="hidden" name="nombre" value="<%- c.nombre %>" />
+          <input type="hidden" name="precio" value="<%- c.precio %>" />
+          <input type="hidden" name="codigo" value="<%- c.codigo %>" />
+          <% }) %>
+        </div>
+        <input class="submit" type="submit" value="Realizar compra" />
+      </form>
     </div>
-</body>
-
+  </body>
 </html>

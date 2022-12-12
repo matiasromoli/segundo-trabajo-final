@@ -37,13 +37,15 @@ export async function newBuyEmail(products) {
     },
   });
 
+  const productos = JSON.stringify(products);
+
   const mailOptions = {
     from: "¡Nueva compra registrada!",
     to: process.env.NODE_EMAIL,
     subject: "Nueva compra",
     html: `<div>
     <h2> La compra realizada es la siguiente: </h2>
-    ${products}
+    ${productos}
     </div>`,
   };
 

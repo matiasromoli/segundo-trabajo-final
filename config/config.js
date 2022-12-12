@@ -1,5 +1,7 @@
+import pvk from "dotenv";
+pvk.config();
+
 export const config = {
-  env: process.env.PASSPORT,
   mongodb: {
     uri: process.env.MONGO_URI,
     options: {
@@ -27,4 +29,10 @@ export const config = {
         "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-gywtl%40ecommerce-5a4c1.iam.gserviceaccount.com",
     },
   },
+  twilio: {
+    sid: process.env.TWILIO_SID,
+    token: process.env.TWILIO_TOKEN,
+  },
+  env: process.env.PASSPORT,
+  modo: process.env.MODO,
 };

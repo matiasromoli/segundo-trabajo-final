@@ -19,8 +19,8 @@ function rutaProtegida(req, res, next) {
 // productos
 
 productos.get("/", getProductos);
-productos.get("/:id", getProductosIdent);
 productos.post("/", postNuevoProducto);
+productos.get("/:id", getProductosIdent);
 productos.put("/:id", rutaProtegida, putEditarProducto);
 productos.delete("/:id", rutaProtegida, delEliminarProducto);
 

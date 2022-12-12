@@ -1,102 +1,165 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
 
 *,
 *::after,
 *::before {
-    font-family: 'Heebo', sans-serif;
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
+  font-family: "Heebo", sans-serif;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
 
 header {
-    background-color: #D65A31;
-    user-select: none;
-    padding: 0px 30px;
-    display: flex;
-    height: 60px;
+  background-color: #d65a31;
+  user-select: none;
+  padding: 0px 30px;
+  display: flex;
+  height: 60px;
 }
 
-header>ul {
-    justify-content: right;
-    align-items: center;
-    display: flex;
-    width: 100%;
+header > ul {
+  justify-content: right;
+  align-items: center;
+  display: flex;
+  width: 100%;
 }
 
-header>ul>li {
-    list-style: none;
-    padding: 0px 10px;
+header > ul > li,
+header > ul > form > li {
+  list-style: none;
+  padding: 0px 10px;
 }
 
-header>ul>p {
-    padding: 0px 10px;
-    color: #222831;
+header > ul > p {
+  padding: 0px 10px;
+  color: #222831;
 }
 
-header>ul>li>a {
-    text-decoration: none;
-    color: #EEEEEEEE;
+header > ul > li > a,
+header > ul > form > li > a {
+  text-decoration: none;
+  color: #eeeeeeee;
 }
 
-header>ul>img {
-    border-radius: 50%;
-    object-fit: cover;
-    height: 45px;
-    width: 45px;
+header > ul > img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 45px;
+  width: 45px;
 }
 
 .conteiner {
-    height: calc(100vh - 60px);
-    background-color: #EEE;
-    flex-wrap: wrap;
-    display: flex;
+  height: calc(100vh - 60px);
+  background-color: #eee;
+  flex-wrap: wrap;
+  display: flex;
 }
 
 .p-body {
-    background-color: #D65A31;
-    flex-direction: column;
-    margin-left: 10px;
-    margin-top: 10px;
-    display: flex;
-    height: 300px;
-    width: 200px;
+  background-color: #d65a31;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  height: 300px;
+  width: 200px;
 }
 
-.p-body>img {
-    object-fit: cover;
-    height: 150px;
-    width: 100%;
+.p-body > img {
+  object-fit: cover;
+  height: 150px;
+  width: 100%;
 }
 
 .text-content {
-    justify-content: center;
-    flex-direction: column;
-    padding: 0px 10px;
-    display: flex;
-    height: 80px;
-    /*colors*/
-    color: #EEE;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 10px;
+  display: flex;
+  height: 80px;
+  /*colors*/
+  color: #eee;
 }
 
 .text-content p {
-    font-weight: 500;
-    font-size: 17px;
+  font-weight: 500;
+  font-size: 17px;
 }
 
 .btn-carrito {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    height: 70px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 70px;
 }
 
-.btn-carrito>p {
-    background-color: #222831;
-    text-decoration: none;
-    border-radius: 50px;
-    padding: 10px 10px;
-    cursor: pointer;
-    color: #EEE;
+.btn-carrito > p {
+  background-color: #222831;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 10px 10px;
+  cursor: pointer;
+  color: #eee;
+}
 
+/* carrito */
+
+.c-conteiner {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+.form {
+  box-shadow: 0px 0px 5px 1px #d65a31;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  height: 50%;
+  width: 50%;
+}
+
+.c-h2 {
+  margin-bottom: 10px;
+  color: #222831;
+  margin-top: 10px;
+}
+
+.c-body {
+  margin: 0px 10px 0px 10px;
+  padding: 0px 15px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.c-body img {
+  height: 100px;
+  width: 100px;
+}
+
+.c-body > div {
+  background-color: red;
+  display: flex;
+}
+
+.text-content {
+  background-color: #d65a31;
+  height: 100px;
+}
+
+.submit {
+  /* styles */
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 12px 25px;
+  margin-top: 30px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  /* colors */
+  background-color: #d65a31;
+  color: #eee;
 }

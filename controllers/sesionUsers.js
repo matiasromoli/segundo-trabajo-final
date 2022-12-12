@@ -1,39 +1,64 @@
-import { productosDao as productoApp } from "../src/daos/index.js";
-import { user } from "../src/container/db/schema.js";
+import {
+  logoutSesion,
+  usuario,
+  listarProductoCarrito,
+  listarProducto,
+  listar,
+} from "../services/operaciones.services.js";
 
-export const cSesion = {
+import { newBuyEmail } from "../utils/node/nodemailer.js";
+import { sendMessage } from "../utils/twilio/message.js";
+
+export const rSesion = {
   viewIndex: (req, res) => {
     res.render("home", {
-      title: "login",
+      title: "Login",
     });
   },
   viewRegister: (req, res) => {
     res.render("index", {
-      title: "register",
+      title: "Register",
     });
   },
   profile: async (req, res) => {
-    /* user */
-    const datosUsuario = req.session.passport.user;
-    const data = await user.findById(datosUsuario);
+    try {
+      const datosUsuario = req.session.passport.user;
+      const data = await usuario(datosUsuario);
+      const productos = await listarProducto();
+      const carritos = await listar();
 
-    /* productos */
-    const productos = await productoApp.listarProducto();
-
-    res.render("Profile/profile", {
-      user: data,
-      products: productos,
-    });
+      res.render("Profile/profile", {
+        user: data,
+        productos,
+        carritos,
+      });
+    } catch (error) {
+      res.status(400).json(error);
+    }
   },
   logout: (req, res, next) => {
-    req.logout((err) => {
-      if (err) {
-        return next(err);
-      }
-      res.redirect("/");
-    });
+    logoutSesion();
   },
   carrito: async (req, res) => {
-    res.render("models/carrito");
+    try {
+      const productoCarrito = await listarProductoCarrito(req.params.id);
+      const ident = req.params.id;
+
+      res.render("models/carrito", {
+        productoCarrito,
+        ident,
+      });
+    } catch (error) {
+      res.status(400).json(error);
+    }
+  },
+  buy: async (req, res) => {
+    try {
+      newBuyEmail(req.body);
+      sendMessage(req.body);
+      res.send("Compra realizada con exito");
+    } catch (error) {
+      res.status(400).json(error);
+    }
   },
 };

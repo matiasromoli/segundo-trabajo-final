@@ -1,5 +1,5 @@
+import { logger } from "../../../utils/log/logger.js";
 import { config } from "../../../config/config.js";
-import { logger } from "../../../utils/logger.js";
 import mongoose from "mongoose";
 
 (async () => {
@@ -102,7 +102,6 @@ export class CarritoMongoDb {
     }
   }
 
-  //productos
   async agregarProductoCarrito(id, productoID) {
     try {
       const product = new ProductoMongoDb("producto");
