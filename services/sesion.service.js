@@ -14,15 +14,6 @@ export async function listarProductoCarrito(id) {
   }
   return carrito;
 }
-export function logoutSesion(req, res, next) {
-  req.logout((err) => {
-    if (err) {
-      return next(err);
-    }
-    res.redirect("/");
-    next();
-  });
-}
 export async function usuario(datosUsuario) {
   const data = await user.findById(datosUsuario);
   return data;

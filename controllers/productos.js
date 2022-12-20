@@ -1,17 +1,47 @@
-import { productosDao as productoApi } from "../src/daos/index.js";
+import {
+  listarProductos,
+  agregarProducto,
+  editarProductos,
+  listarProductosId,
+  eliminarProducto,
+} from "../services/productos.service.js";
 
 export const getProductos = async (req, res) => {
-  res.json(await productoApi.listarProducto());
+  try {
+    res.json(await listarProductos());
+  } catch (error) {
+    res.status(400).json(error);
+  }
 };
 export const getProductosIdent = async (req, res) => {
-  res.json(await productoApi.listarProductoIdent(req.params.id));
+  try {
+    const producto = await listarProductosId(req.params.id);
+    res.json(producto);
+  } catch (error) {
+    res.status(400).json(error);
+  }
 };
 export const postNuevoProducto = async (req, res) => {
-  res.json(await productoApi.agregarNuevoProducto(req.body));
+  try {
+    await agregarProducto(req.body);
+    res.json("El producto se ha agregado con exito");
+  } catch (error) {
+    res.status(400).json(error);
+  }
 };
 export const putEditarProducto = async (req, res) => {
-  res.json(await productoApi.editarProducto(req.params.id, req.body));
+  try {
+    await editarProductos(req.params.id, req.body);
+    res.json("El producto se ha editado con exito");
+  } catch (error) {
+    res.status(400).json(error);
+  }
 };
 export const delEliminarProducto = async (req, res) => {
-  res.json(await productoApi.eliminarProducto(req.params.id));
+  try {
+    await eliminarProducto(req.params.id);
+    res.json("El producto se ha eliminado con exito");
+  } catch (error) {
+    res.status(400).json(error);
+  }
 };

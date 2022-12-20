@@ -2,7 +2,6 @@ const sesion = express.Router();
 import passport from "passport";
 import express from "express";
 
-import { logoutSesion } from "../services/operaciones.services.js";
 import { rSesion } from "../controllers/sesionUsers.js";
 import { auth } from "../utils/passport/passport.js";
 
@@ -27,6 +26,6 @@ sesion.post(
 );
 sesion.post("/carrito/:id/buy", rSesion.buy);
 sesion.get("/carrito/:id", rSesion.carrito);
-sesion.get("/logout", logoutSesion);
+sesion.get("/logout", rSesion.logout);
 
 export default sesion;

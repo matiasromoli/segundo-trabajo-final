@@ -1,29 +1,53 @@
-import { carritoDao as carritoApi } from "../src/daos/index.js";
+import {
+  crearCarrito,
+  listarCarritos,
+  agregarProducto,
+  eliminarCarrito,
+  listarProductosCarrito,
+  eliminarProductoCarrito,
+} from "../services/carrito.service.js";
 
 export const postCarrito = async (req, res) => {
-  let productos = [];
-  res.json(await carritoApi.crearCarrito(productos));
+  try {
+    await crearCarrito();
+    res.json("El carrito ha sido creado");
+  } catch (error) {
+    res.status(400).json(error);
+  }
 };
 export const deleteCarrito = async (req, res) => {
-  res.json(await carritoApi.deleteCarrito(req.params.id));
+  try {
+    await eliminarCarrito(req.params.id);
+    res.json("El carrito ha sido eliminado con exito.");
+  } catch (error) {
+    res.status(400).json(error);
+  }
 };
 export const postAgregarCarrito = async (req, res) => {
-  const agregar = await carritoApi.agregarProductoCarrito(
-    req.params.id,
-    req.body.id
-  );
-  if (agregar) {
+  try {
+    await agregarProducto(req.params.id, req.body.id);
     res.redirect("/profile");
+  } catch (error) {
+    res.status(400).json(error);
   }
 };
 export const getMostrarCarrito = async (req, res) => {
-  res.json(await carritoApi.mostrarProductoCarrito(req.params.id));
+  try {
+    const listaProducto = await listarProductosCarrito(req.params.id);
+    res.json(listaProducto);
+  } catch (error) {
+    res.status(400).json(error);
+  }
 };
 export const deleteProductoCarrito = async (req, res) => {
-  res.json(
-    await carritoApi.deleteProductoCarrito(req.params.id, req.params.idProd)
-  );
+  try {
+    await eliminarProductoCarrito(req.params.id, req.params.idProd);
+    res.json("Producto eliminado con exito");
+  } catch (error) {
+    res.status(400).json(error);
+  }
 };
 export const getCarrito = async (req, res) => {
-  res.json(await carritoApi.listarCarrito());
+  const carrito = await listarCarritos();
+  res.json(carrito);
 };

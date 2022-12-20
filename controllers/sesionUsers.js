@@ -1,10 +1,9 @@
 import {
-  logoutSesion,
   usuario,
   listarProductoCarrito,
   listarProducto,
   listar,
-} from "../services/operaciones.services.js";
+} from "../services/sesion.service.js";
 
 import { newBuyEmail } from "../utils/node/nodemailer.js";
 import { sendMessage } from "../utils/twilio/message.js";
@@ -37,7 +36,13 @@ export const rSesion = {
     }
   },
   logout: (req, res, next) => {
-    logoutSesion();
+    req.logout((err) => {
+      if (err) {
+        return next(err);
+      }
+      res.redirect("/");
+      next();
+    });
   },
   carrito: async (req, res) => {
     try {
