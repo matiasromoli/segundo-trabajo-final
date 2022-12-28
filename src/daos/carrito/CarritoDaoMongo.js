@@ -1,10 +1,9 @@
 import { CarritoMongoDb } from "../../container/db/mongo.js";
+import Carrito from "../../model/modelCarrito.js";
 
 class CarritoDaoMongoDb extends CarritoMongoDb {
   constructor() {
-    super("carrito", {
-      producto: { type: [], required: true },
-    });
+    super(Carrito);
   }
 }
 

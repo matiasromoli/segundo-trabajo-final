@@ -1,0 +1,11 @@
+[2022-12-26T16:00:49.312] [ERROR] production - Promise {
+  Error {
+    status: 500,
+    descripcion: 'No se pudo desconectar la base de datos',
+    detalle: undefined
+  }
+}
+[2022-12-26T16:27:54.664] [ERROR] production - El usuario no existe
+[2022-12-26T16:33:42.106] [ERROR] production - El usuario no existe
+[2022-12-26T19:44:45.434] [ERROR] production - El usuario no existe
+[2022-12-26T19:44:49.173] [ERROR] production - El usuario no existe

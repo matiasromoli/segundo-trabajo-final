@@ -33,6 +33,6 @@ export const config = {
     sid: process.env.TWILIO_SID,
     token: process.env.TWILIO_TOKEN,
   },
-  env: process.env.PASSPORT,
+  env: process.env.LOGGER,
   modo: process.env.MODO,
 };

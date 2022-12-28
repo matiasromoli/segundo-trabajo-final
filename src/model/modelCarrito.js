@@ -1,7 +1,8 @@
 import { Schema, model } from "mongoose";
 
-const modelCarrito = new Schema({
+const modelCarrito = Schema({
   producto: { type: [], required: true },
 });
 
-export const Carrito = model("carritos", modelCarrito);
+const Carrito = model("carritos", modelCarrito);
+export default Carrito;

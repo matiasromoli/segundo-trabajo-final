@@ -16,8 +16,6 @@ function rutaProtegida(req, res, next) {
   }
 }
 
-// productos
-
 productos.get("/", getProductos);
 productos.post("/", postNuevoProducto);
 productos.get("/:id", getProductosIdent);

@@ -1,6 +1,6 @@
 import { Schema, model } from "mongoose";
 
-export const modelProducto = new Schema({
+export const modelProducto = Schema({
   nombre: { type: String, required: true },
   descri: { type: String, required: true },
   timeday: { type: String, required: true },
@@ -10,5 +10,5 @@ export const modelProducto = new Schema({
   stock: { type: Number, required: true },
 });
 
-const Producto = model("productos", modelProducto);
+const Producto = model("producto", modelProducto);
 export default Producto;

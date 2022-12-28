@@ -2,7 +2,6 @@ import { user } from "../../src/model/modelUsuario.js";
 import * as passLocal from "passport-local";
 import passport from "passport";
 
-import { carritoDao as carritoApp } from "../../src/daos/index.js";
 import { newUserEmail } from "../node/nodemailer.js";
 import { logger } from "../log/logger.js";
 
@@ -27,9 +26,8 @@ passport.use(
           phone: req.body.phone,
           image: `/image/${req.file.filename}`,
         });
-        let producto = [];
+
         newUserEmail(usuario);
-        await carritoApp.crearCarrito(producto);
         return done(null, usuario);
       } catch (error) {
         done(error);

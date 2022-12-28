@@ -23,6 +23,7 @@ export async function newUserEmail(user) {
 
   try {
     const info = await transporter.sendMail(mailOptions);
+    console.log(info);
   } catch (error) {
     console.log(error);
   }
@@ -50,7 +51,7 @@ export async function newBuyEmail(products) {
   };
 
   try {
-    const info = await transporter.sendMail(mailOptions);
+    await transporter.sendMail(mailOptions);
   } catch (error) {
     console.log(error);
   }
