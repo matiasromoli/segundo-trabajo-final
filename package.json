@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha ./https/query/request.test.js",
     "start": "nodemon ./app.js"
   },
   "keywords": [],
@@ -12,7 +12,9 @@
   "type": "module",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.2.2",
     "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.2",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
@@ -28,7 +30,10 @@
     "twilio": "^3.83.4"
   },
   "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.3"
   }
 }

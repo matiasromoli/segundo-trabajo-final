@@ -1,5 +1,6 @@
 import { mongoClient } from "../../classes/mongo/mongo.client.js";
-import { Error } from "../../classes/error.js";
+import Producto from "../../model/modelProducto.js";
+import { Error } from "../../classes/class.js";
 import mongoose from "mongoose";
 
 export class ProductoMongoDb {
@@ -27,8 +28,6 @@ export class ProductoMongoDb {
       return producto;
     } catch (error) {
       throw new Error(500, `No existe producto con el ID: ${id}`, error);
-    } finally {
-      await this.connect.disconnect();
     }
   }
   async agregarNuevoProducto(product) {
@@ -80,6 +79,7 @@ export class ProductoMongoDb {
   async eliminarProducto(id) {
     try {
       await this.connect.connected();
+
       const producto = await this.collection.deleteOne({ _id: id });
       return producto;
     } catch (error) {
@@ -137,7 +137,8 @@ export class CarritoMongoDb {
   async agregarProductoCarrito(id, productoID) {
     try {
       await this.connect.connected();
-      const product = new ProductoMongoDb("producto");
+
+      const product = new ProductoMongoDb(Producto);
       const p = await product.listarProductoIdent(productoID);
 
       await this.collection.findByIdAndUpdate(id, {
@@ -153,6 +154,7 @@ export class CarritoMongoDb {
   async mostrarProductoCarrito(id) {
     try {
       await this.connect.connected();
+
       const carrito = await this.collection.find(
         { _id: id },
         { _id: 0, producto: 1 }

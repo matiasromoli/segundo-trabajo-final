@@ -1,12 +1,8 @@
-import {
-  usuario,
-  listarProductoCarrito,
-  listarProducto,
-  listar,
-} from "../services/sesion.service.js";
-
+import { sessionService } from "../services/sesion.service.js";
 import { newBuyEmail } from "../utils/node/nodemailer.js";
 import { sendMessage } from "../utils/twilio/message.js";
+
+const sessionApp = new sessionService();
 
 export const rSesion = {
   viewIndex: (req, res) => {
@@ -22,9 +18,10 @@ export const rSesion = {
   profile: async (req, res) => {
     try {
       const datosUsuario = req.session.passport.user;
-      const data = await usuario(datosUsuario);
-      const productos = await listarProducto();
-      const carritos = await listar();
+
+      const data = await sessionApp.usuario(datosUsuario);
+      const productos = await sessionApp.listarProducto();
+      const carritos = await sessionApp.listar();
 
       res.render("Profile/profile", {
         user: data,
@@ -46,7 +43,9 @@ export const rSesion = {
   },
   carrito: async (req, res) => {
     try {
-      const productoCarrito = await listarProductoCarrito(req.params.id);
+      const productoCarrito = await sessionApp.listarProductoCarrito(
+        req.params.id
+      );
       const ident = req.params.id;
 
       res.render("models/carrito", {

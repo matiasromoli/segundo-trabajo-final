@@ -9,3 +9,1122 @@
 [2022-12-26T16:33:42.106] [ERROR] production - El usuario no existe
 [2022-12-26T19:44:45.434] [ERROR] production - El usuario no existe
 [2022-12-26T19:44:49.173] [ERROR] production - El usuario no existe
+[2023-01-01T13:51:41.308] [ERROR] production - El usuario no existe
+[2023-01-01T13:52:19.387] [ERROR] production - Por favor, vuelva a introducir la contraseña
+[2023-01-01T13:57:03.331] [ERROR] production - Por favor, vuelva a introducir la contraseña
+[2023-01-01T14:35:27.053] [ERROR] production - El usuario no existe
+[2023-01-01T15:22:47.684] [ERROR] production - El usuario no existe
+[2023-01-01T22:15:43.557] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-01T22:17:34.911] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-01T22:18:22.098] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-01T22:19:07.889] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T01:01:35.932] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T01:01:37.555] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T01:04:25.332] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T01:04:26.693] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T01:08:22.455] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T01:08:23.096] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T01:24:40.752] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T01:24:41.384] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T01:25:36.670] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T01:25:37.321] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T01:30:18.068] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T01:30:18.712] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T01:33:25.812] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T01:33:26.444] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T01:34:44.739] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No existe producto con el ID: 63b2313d2b38c3a5bbc4bbf7',
+  detalle: MongoExpiredSessionError: Cannot use a session that has ended
+      at applySession (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\node_modules\mongodb\lib\sessions.js:664:16)
+      at Connection.command (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:271:53)
+      at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:210:18
+      at Object.callback (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:293:13)
+      at ConnectionPool.processWaitQueue (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:435:33)
+      at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:189:37
+      at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2023-01-02T01:34:46.269] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T01:34:46.908] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T01:35:07.401] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T01:35:08.037] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T09:17:50.807] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T09:17:51.479] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T09:19:10.053] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T09:19:10.708] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T09:22:00.013] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T09:22:00.661] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T09:26:27.437] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T09:26:28.068] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T09:27:26.850] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T09:27:27.501] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T09:30:59.282] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T09:30:59.921] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T09:34:56.166] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T09:34:56.840] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T09:35:46.696] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T09:35:47.334] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T09:36:30.984] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T09:36:31.629] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T09:38:06.091] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T09:38:06.701] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T09:39:12.024] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}
+[2023-01-02T09:39:12.644] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: Error: producto validation failed: stock: Path `stock` is required., foto: Path `foto` is required., precio: Path `precio` is required., codigo: Path `codigo` is required., descri: Path `descri` is required., nombre: Path `nombre` is required.
+      at ValidationError.inspect (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\error\validation.js:49:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1939:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at formatWithOptionsInternal (node:internal/util/inspect:2292:40)
+      at Object.format (node:internal/util/inspect:2149:10)
+      at basicLayout (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\layouts.js:65:52)
+      at app (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\log4js\lib\appenders\file.js:98:23) {
+    errors: {
+      stock: [ValidatorError],
+      foto: [ValidatorError],
+      precio: [ValidatorError],
+      codigo: [ValidatorError],
+      descri: [ValidatorError],
+      nombre: [ValidatorError]
+    },
+    _message: 'producto validation failed'
+  }
+}

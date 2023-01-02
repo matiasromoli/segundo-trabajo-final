@@ -1,22 +1,49 @@
-import { carritoDao as carritoApi } from "../src/daos/index.js";
+import { carritoDao } from "../src/daos/index.js";
+import { logger } from "../config/logger.js";
 
-export async function crearCarrito() {
-  let productos = [];
-  return await carritoApi.crearCarrito(productos);
-}
-export async function listarCarritos() {
-  return await carritoApi.listarCarrito();
-}
-export async function eliminarCarrito(id) {
-  return await carritoApi.deleteCarrito(id);
-}
-export async function listarProductosCarrito(id) {
-  return await carritoApi.mostrarProductoCarrito(id);
-}
-export async function agregarProducto(id, ident) {
-  const agregar = await carritoApi.agregarProductoCarrito(id, ident);
-  return agregar;
-}
-export async function eliminarProductoCarrito(id, ident) {
-  return await carritoApi.deleteProductoCarrito(id, ident);
+export class carritoService {
+  async crearCarrito() {
+    try {
+      let productos = [];
+      return await carritoDao.crearCarrito(productos);
+    } catch (error) {
+      logger.error(error);
+    }
+  }
+  async listarCarritos() {
+    try {
+      return await carritoDao.listarCarrito();
+    } catch (error) {
+      logger.error(error);
+    }
+  }
+  async eliminarCarrito(id) {
+    try {
+      return await carritoDao.deleteCarrito(id);
+    } catch (error) {
+      logger.error(error);
+    }
+  }
+  async listarProductosCarrito(id) {
+    try {
+      return await carritoDao.mostrarProductoCarrito(id);
+    } catch (error) {
+      logger.error(error);
+    }
+  }
+  async agregarProducto(id, ident) {
+    try {
+      const agregar = await carritoDao.agregarProductoCarrito(id, ident);
+      return agregar;
+    } catch (error) {
+      logger.error(error);
+    }
+  }
+  async eliminarProductoCarrito(id, ident) {
+    try {
+      return await carritoDao.deleteProductoCarrito(id, ident);
+    } catch (error) {
+      logger.error(error);
+    }
+  }
 }

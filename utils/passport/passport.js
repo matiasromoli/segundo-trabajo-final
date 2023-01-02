@@ -2,8 +2,10 @@ import { user } from "../../src/model/modelUsuario.js";
 import * as passLocal from "passport-local";
 import passport from "passport";
 
+import { verifyEmail, createUser, deserialize } from "./index.js";
+import { carritoApp } from "../../controllers/carrito.js";
 import { newUserEmail } from "../node/nodemailer.js";
-import { logger } from "../log/logger.js";
+import { logger } from "../../config/logger.js";
 
 passport.use(
   "signup",
@@ -15,18 +17,20 @@ passport.use(
     },
     async (req, email, password, done) => {
       try {
-        let userEmail = await user.findOne({ email });
-        if (userEmail) return done(null, false);
+        let { nombre, address, phone } = req.body;
 
-        const usuario = await user.create({
-          name: req.body.nombre,
+        const correo = await verifyEmail(email);
+        if (correo) return done(null, false);
+
+        const usuario = await createUser(
+          nombre,
           password,
           email,
-          address: req.body.address,
-          phone: req.body.phone,
-          image: `/image/${req.file.filename}`,
-        });
-
+          address,
+          phone,
+          req.file.filename
+        );
+        await carritoApp.crearCarrito();
         newUserEmail(usuario);
         return done(null, usuario);
       } catch (error) {
@@ -45,7 +49,7 @@ passport.use(
     },
     async (email, password, done) => {
       try {
-        const usuario = await user.findOne({ email });
+        const usuario = await verifyEmail(email);
         if (!usuario)
           return done(null, false, logger.error("El usuario no existe"));
 
@@ -70,7 +74,7 @@ passport.serializeUser((user, done) => {
 });
 
 passport.deserializeUser(async (id, done) => {
-  const data = await user.findById(id);
+  const data = await deserialize(id);
   done(null, data);
 });
 

@@ -1,4 +1,4 @@
-import { Error } from "../error.js";
+import { Error } from "../class.js";
 
 export class mongoError {
   async conn() {

@@ -9,11 +9,14 @@ import { URL } from "./utils/index.js";
 const __dirname = URL(import.meta.url);
 import path from "path";
 
+import cors from "cors";
+app.use(cors());
+
 import session from "express-session";
 import "./utils/passport/passport.js";
 import passport from "passport";
 
-import { logger } from "./utils/log/logger.js";
+import { logger } from "./config/logger.js";
 
 app.use(
   session({

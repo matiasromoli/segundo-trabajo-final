@@ -34,5 +34,5 @@ export const config = {
     token: process.env.TWILIO_TOKEN,
   },
   env: process.env.LOGGER,
-  modo: process.env.MODO,
+  pers: process.env.PERS,
 };

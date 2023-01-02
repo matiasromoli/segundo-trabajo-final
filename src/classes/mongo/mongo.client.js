@@ -1,4 +1,4 @@
-import { logger } from "../../../utils/log/logger.js";
+import { logger } from "../../../config/logger.js";
 import { config } from "../../../config/config.js";
 import { mongoError } from "./mongo.error.js";
 import mongoose from "mongoose";
