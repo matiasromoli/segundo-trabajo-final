@@ -1,6 +1,6 @@
 import { memoriaCarrito } from "../../container/memoria.js";
 
-class MemoriaDaoCarrito extends memoriaCarrito {
+export class MemoriaDaoCarrito extends memoriaCarrito {
   constructor() {
     let carrito = [];
     super(carrito);

@@ -1,6 +1,6 @@
 import { mongoClient } from "../../classes/mongo/mongo.client.js";
 import Producto from "../../model/modelProducto.js";
-import { Error } from "../../classes/class.js";
+import { Error } from "../../classes/class.DTO.js";
 import mongoose from "mongoose";
 
 export class ProductoMongoDb {
@@ -30,12 +30,13 @@ export class ProductoMongoDb {
       throw new Error(500, `No existe producto con el ID: ${id}`, error);
     }
   }
-  async agregarNuevoProducto(product) {
+  async agregarNuevoProducto(data) {
     try {
       await this.connect.connected();
+
       const today = new Date();
       const producto = await this.collection.create({
-        ...product,
+        ...data,
         timeday: today.toLocaleString(),
       });
       return producto;
@@ -52,7 +53,7 @@ export class ProductoMongoDb {
   async editarProducto(id, product) {
     try {
       await this.connect.connected();
-      await this.collection.updateOne(
+      await this.collection.findByIdAndUpdate(
         { _id: id },
         {
           $set: {
@@ -80,8 +81,7 @@ export class ProductoMongoDb {
     try {
       await this.connect.connected();
 
-      const producto = await this.collection.deleteOne({ _id: id });
-      return producto;
+      return await this.collection.findByIdAndDelete({ _id: id });
     } catch (error) {
       throw new Error(500, "No se pudo eliminar el producto solicitado", error);
     } finally {
@@ -122,11 +122,12 @@ export class CarritoMongoDb {
       await this.connect.disconnect();
     }
   }
-  async deleteCarrito(id) {
+  async deleteCarrito(producto) {
     try {
       await this.connect.connected();
-      const deleteCarrito = await this.collection.deleteOne({ _id: id });
-      throw deleteCarrito;
+      return await this.collection.findByIdAndDelete({
+        _id: producto.id,
+      });
     } catch (error) {
       return new Error(500, "No se pudo eliminar el carrito", error);
     } finally {
@@ -134,31 +135,31 @@ export class CarritoMongoDb {
     }
   }
 
-  async agregarProductoCarrito(id, productoID) {
+  async agregarProductoCarrito(data) {
     try {
       await this.connect.connected();
 
       const product = new ProductoMongoDb(Producto);
-      const p = await product.listarProductoIdent(productoID);
+      const p = await product.listarProductoIdent(data.ident);
 
-      await this.collection.findByIdAndUpdate(id, {
+      return await this.collection.findByIdAndUpdate(data.id, {
         $push: { producto: p },
       });
-      return "Producto agregado con éxito";
     } catch (error) {
       throw new Error(500, "Hubo un error, vuelva a intentarlo.", error);
     } finally {
       await this.connect.disconnect();
     }
   }
-  async mostrarProductoCarrito(id) {
+  async mostrarProductoCarrito(data) {
     try {
       await this.connect.connected();
 
-      const carrito = await this.collection.find(
-        { _id: id },
+      const carrito = await this.collection.findById(
+        { _id: data.id },
         { _id: 0, producto: 1 }
       );
+
       return carrito;
     } catch (error) {
       throw new Error(500, "Hubo un error, vuelva a intentarlo.", error);
@@ -166,16 +167,16 @@ export class CarritoMongoDb {
       await this.connect.disconnect();
     }
   }
-  async deleteProductoCarrito(id, productoID) {
+  async deleteProductoCarrito(producto) {
     try {
       await this.connect.connected();
-      const productoCarrito = await this.collection.updateMany(
-        { _id: id },
+
+      return await this.collection.updateMany(
+        { _id: producto.id },
         {
-          $pull: { producto: { _id: mongoose.Types.ObjectId(productoID) } },
+          $pull: { producto: { _id: mongoose.Types.ObjectId(producto.ident) } },
         }
       );
-      return productoCarrito;
     } catch (error) {
       throw new Error(
         500,

@@ -5,7 +5,7 @@ export const carritoApp = new carritoService();
 export const postCarrito = async (req, res) => {
   try {
     await carritoApp.crearCarrito();
-    res.json("El carrito ha sido creado");
+    res.status(200).json("El carrito ha sido creado");
   } catch (error) {
     res.status(400).json(error);
   }
@@ -13,7 +13,7 @@ export const postCarrito = async (req, res) => {
 export const deleteCarrito = async (req, res) => {
   try {
     await carritoApp.eliminarCarrito(req.params.id);
-    res.json("El carrito ha sido eliminado con exito.");
+    res.status(200).json("El carrito ha sido eliminado con exito.");
   } catch (error) {
     res.status(400).json(error);
   }
@@ -28,10 +28,10 @@ export const postAgregarCarrito = async (req, res) => {
 };
 export const getMostrarCarrito = async (req, res) => {
   try {
-    const listaProducto = await carritoApp.listarProductosCarrito(
+   const productoCarrito = await carritoApp.listarProductosCarrito(
       req.params.id
     );
-    res.json(listaProducto);
+    res.status(200).json(productoCarrito);
   } catch (error) {
     res.status(400).json(error);
   }
@@ -39,7 +39,7 @@ export const getMostrarCarrito = async (req, res) => {
 export const deleteProductoCarrito = async (req, res) => {
   try {
     await carritoApp.eliminarProductoCarrito(req.params.id, req.params.idProd);
-    res.json("Producto eliminado con exito");
+    res.status(200).json("Producto eliminado con exito");
   } catch (error) {
     res.status(400).json(error);
   }

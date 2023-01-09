@@ -46,8 +46,8 @@ export const rSesion = {
       const productoCarrito = await sessionApp.listarProductoCarrito(
         req.params.id
       );
-      const ident = req.params.id;
 
+      const ident = req.params.id;
       res.render("models/carrito", {
         productoCarrito,
         ident,

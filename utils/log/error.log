@@ -1118,3 +1118,1507 @@
     _message: 'producto validation failed'
   }
 }
+[2023-01-06T08:44:31.127] [ERROR] production - TypeError: Cannot read properties of undefined (reading 'agregarNuevoProducto')
+    at productosService.agregarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:37:33)
+    at postNuevoProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:22:23)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:175:3)
+[2023-01-06T08:46:45.681] [ERROR] production - TypeError: productosDao.agregarNuevoProducto is not a function
+    at productosService.agregarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:37:33)
+    at postNuevoProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:22:23)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:175:3)
+[2023-01-06T08:46:50.586] [ERROR] production - TypeError: productosDao.agregarNuevoProducto is not a function
+    at productosService.agregarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:37:33)
+    at postNuevoProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:22:23)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:175:3)
+[2023-01-06T08:46:55.263] [ERROR] production - TypeError: productosDao.listarProducto is not a function
+    at productosService.listarProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:16:33)
+    at getProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:7:44)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:175:3)
+[2023-01-06T08:46:56.112] [ERROR] production - TypeError: productosDao.listarProducto is not a function
+    at productosService.listarProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:16:33)
+    at getProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:7:44)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:175:3)
+[2023-01-06T08:46:56.668] [ERROR] production - TypeError: productosDao.listarProducto is not a function
+    at productosService.listarProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:16:33)
+    at getProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:7:44)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:175:3)
+[2023-01-06T08:48:51.062] [ERROR] production - TypeError: Cannot read properties of undefined (reading 'listarProducto')
+    at productosService.listarProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:16:33)
+    at getProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:7:44)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:175:3)
+[2023-01-06T08:50:22.589] [ERROR] production - TypeError: Cannot read properties of undefined (reading 'listarProducto')
+    at productosService.listarProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:14:33)
+    at getProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:7:44)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:175:3)
+[2023-01-06T08:50:23.483] [ERROR] production - TypeError: Cannot read properties of undefined (reading 'listarProducto')
+    at productosService.listarProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:14:33)
+    at getProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:7:44)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:175:3)
+[2023-01-06T08:51:38.094] [ERROR] production - TypeError: Cannot read properties of undefined (reading 'listarProducto')
+    at productosService.listarProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:14:32)
+    at getProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:7:44)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:175:3)
+[2023-01-06T08:51:41.686] [ERROR] production - TypeError: Cannot read properties of undefined (reading 'listarProducto')
+    at productosService.listarProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:14:32)
+    at getProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:7:44)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:175:3)
+[2023-01-06T08:53:23.352] [ERROR] production - TypeError: Cannot read properties of undefined (reading 'listarProducto')
+    at productosService.listarProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:16:33)
+    at getProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:7:44)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:175:3)
+[2023-01-06T09:55:00.531] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No existe producto con el ID: [object Object]',
+  detalle: CastError: Cast to ObjectId failed for value "DTOProducto {
+    id: '63b2d06f8a2116ac7a53e444',
+    body: undefined,
+    producto: undefined
+  }" (type DTOProducto) at path "_id" for model "producto"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"DTOProducto {\n' +
+      "  id: '63b2d06f8a2116ac7a53e444',\n" +
+      '  body: undefined,\n' +
+      '  producto: undefined\n' +
+      '}"',
+    kind: 'ObjectId',
+    value: DTOProducto {
+      id: '63b2d06f8a2116ac7a53e444',
+      body: undefined,
+      producto: undefined
+    },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'DTOProducto'
+  }
+}
+[2023-01-06T09:56:30.939] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No existe producto con el ID: [object Object]',
+  detalle: CastError: Cast to ObjectId failed for value "DTOProducto {
+    id: '63b2d06f8a2116ac7a53e444',
+    body: undefined,
+    producto: undefined
+  }" (type DTOProducto) at path "_id" for model "producto"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"DTOProducto {\n' +
+      "  id: '63b2d06f8a2116ac7a53e444',\n" +
+      '  body: undefined,\n' +
+      '  producto: undefined\n' +
+      '}"',
+    kind: 'ObjectId',
+    value: DTOProducto {
+      id: '63b2d06f8a2116ac7a53e444',
+      body: undefined,
+      producto: undefined
+    },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'DTOProducto'
+  }
+}
+[2023-01-06T10:01:51.556] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No existe producto con el ID: [object Object]',
+  detalle: CastError: Cast to ObjectId failed for value "DTOProducto { id: '63b2d06f8a2116ac7a53e444' }" (type DTOProducto) at path "_id" for model "producto"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: `"DTOProducto { id: '63b2d06f8a2116ac7a53e444' }"`,
+    kind: 'ObjectId',
+    value: DTOProducto { id: '63b2d06f8a2116ac7a53e444' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'DTOProducto'
+  }
+}
+[2023-01-06T10:02:16.688] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No existe producto con el ID: [object Object]',
+  detalle: CastError: Cast to ObjectId failed for value "DTOProducto { id: { id: '63b2d06f8a2116ac7a53e444' } }" (type DTOProducto) at path "_id" for model "producto"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: `"DTOProducto { id: { id: '63b2d06f8a2116ac7a53e444' } }"`,
+    kind: 'ObjectId',
+    value: DTOProducto { id: [Object] },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'DTOProducto'
+  }
+}
+[2023-01-06T10:03:46.823] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No existe producto con el ID: [object Object]',
+  detalle: CastError: Cast to ObjectId failed for value "DTOProducto { id: undefined }" (type DTOProducto) at path "_id" for model "producto"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"DTOProducto { id: undefined }"',
+    kind: 'ObjectId',
+    value: DTOProducto { id: undefined },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'DTOProducto'
+  }
+}
+[2023-01-06T10:04:29.534] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No existe producto con el ID: [object Object]',
+  detalle: CastError: Cast to ObjectId failed for value "DTOProducto { id: undefined }" (type DTOProducto) at path "_id" for model "producto"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"DTOProducto { id: undefined }"',
+    kind: 'ObjectId',
+    value: DTOProducto { id: undefined },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'DTOProducto'
+  }
+}
+[2023-01-06T10:28:28.694] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: CastError: Cast to ObjectId failed for value "DTOCarrito { id: '63b8208d2bf8c2e7dd6d6b04' }" (type DTOCarrito) at path "_id" for model "carritos"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: `"DTOCarrito { id: '63b8208d2bf8c2e7dd6d6b04' }"`,
+    kind: 'ObjectId',
+    value: DTOCarrito { id: '63b8208d2bf8c2e7dd6d6b04' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'DTOCarrito'
+  }
+}
+[2023-01-06T10:29:12.627] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: CastError: Cast to ObjectId failed for value "DTOCarrito { id: { id: '63b8208d2bf8c2e7dd6d6b04' } }" (type DTOCarrito) at path "_id" for model "carritos"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: `"DTOCarrito { id: { id: '63b8208d2bf8c2e7dd6d6b04' } }"`,
+    kind: 'ObjectId',
+    value: DTOCarrito { id: [Object] },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'DTOCarrito'
+  }
+}
+[2023-01-06T10:29:53.290] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: CastError: Cast to ObjectId failed for value "DTOCarrito { id: '63b8208d2bf8c2e7dd6d6b04' }" (type DTOCarrito) at path "_id" for model "carritos"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: `"DTOCarrito { id: '63b8208d2bf8c2e7dd6d6b04' }"`,
+    kind: 'ObjectId',
+    value: DTOCarrito { id: '63b8208d2bf8c2e7dd6d6b04' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'DTOCarrito'
+  }
+}
+[2023-01-06T10:30:11.483] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: CastError: Cast to ObjectId failed for value "DTOCarrito { id: undefined }" (type DTOCarrito) at path "_id" for model "carritos"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"DTOCarrito { id: undefined }"',
+    kind: 'ObjectId',
+    value: DTOCarrito { id: undefined },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'DTOCarrito'
+  }
+}
+[2023-01-06T10:30:43.145] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: CastError: Cast to ObjectId failed for value "DTOCarrito { id: '63b8208d2bf8c2e7dd6d6b04' }" (type DTOCarrito) at path "_id" for model "carritos"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: `"DTOCarrito { id: '63b8208d2bf8c2e7dd6d6b04' }"`,
+    kind: 'ObjectId',
+    value: DTOCarrito { id: '63b8208d2bf8c2e7dd6d6b04' },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'DTOCarrito'
+  }
+}
+[2023-01-06T10:40:23.557] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: CastError: Cast to ObjectId failed for value "DTOCarrito {
+    id: '63b823d583c7dc9d464d562b',
+    identCarrito: '63b2d06f8a2116ac7a53e444'
+  }" (type DTOCarrito) at path "_id" for model "carritos"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"DTOCarrito {\n' +
+      "  id: '63b823d583c7dc9d464d562b',\n" +
+      "  identCarrito: '63b2d06f8a2116ac7a53e444'\n" +
+      '}"',
+    kind: 'ObjectId',
+    value: DTOCarrito {
+      id: '63b823d583c7dc9d464d562b',
+      identCarrito: '63b2d06f8a2116ac7a53e444'
+    },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'DTOCarrito'
+  }
+}
+[2023-01-06T10:41:33.297] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: TypeError: Cannot read properties of undefined (reading 'id')
+      at CarritoDaoMongoDb.agregarProductoCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:142:62)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async carritoService.agregarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/carrito.service.js:39:23)
+      at async postAgregarCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/carrito.js:23:5)
+}
+[2023-01-06T10:44:10.117] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: TypeError: Cannot read properties of undefined (reading 'id')
+      at CarritoDaoMongoDb.agregarProductoCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:142:62)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async carritoService.agregarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/carrito.service.js:39:23)
+      at async postAgregarCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/carrito.js:23:5)
+}
+[2023-01-06T10:45:59.307] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: TypeError: Cannot read properties of undefined (reading 'productoCarrito')
+      at CarritoDaoMongoDb.agregarProductoCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:142:62)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async carritoService.agregarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/carrito.service.js:39:23)
+      at async postAgregarCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/carrito.js:23:5)
+}
+[2023-01-06T11:04:03.534] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: TypeError: Cannot read properties of undefined (reading 'productoCarrito')
+      at CarritoDaoMongoDb.agregarProductoCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:143:59)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async carritoService.agregarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/carrito.service.js:39:23)
+      at async postAgregarCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/carrito.js:23:5)
+}
+[2023-01-06T11:05:45.267] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: Error: Can't use $push
+      at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1631:13)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1602:22)
+      at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:326:39)
+      at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12)
+      at castQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5113:18)
+      at model.Query.Query._findAndModify (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:3949:23)
+      at model.Query.<anonymous> (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:3463:8)
+      at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\helpers\query\wrapThunk.js:29:8)
+      at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\kareem\index.js:426:25
+      at processTicksAndRejections (node:internal/process/task_queues:78:11)
+}
+[2023-01-06T11:19:26.708] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No existe producto con el ID: [object Object]',
+  detalle: CastError: Cast to ObjectId failed for value "DTOProducto {
+    id: undefined,
+    producto: undefined,
+    nombre: undefined,
+    descri: undefined,
+    codigo: undefined,
+    precio: undefined,
+    foto: undefined,
+    stock: undefined
+  }" (type DTOProducto) at path "_id" for model "producto"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"DTOProducto {\n' +
+      '  id: undefined,\n' +
+      '  producto: undefined,\n' +
+      '  nombre: undefined,\n' +
+      '  descri: undefined,\n' +
+      '  codigo: undefined,\n' +
+      '  precio: undefined,\n' +
+      '  foto: undefined,\n' +
+      '  stock: undefined\n' +
+      '}"',
+    kind: 'ObjectId',
+    value: DTOProducto {
+      id: undefined,
+      producto: undefined,
+      nombre: undefined,
+      descri: undefined,
+      codigo: undefined,
+      precio: undefined,
+      foto: undefined,
+      stock: undefined
+    },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'DTOProducto'
+  }
+}
+[2023-01-06T11:22:26.643] [ERROR] production - TypeError: Cannot read properties of undefined (reading 'nombre')
+    at new DTOProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/dto/DTOService.js:14:24)
+    at productosService.listarProductosId (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:31:53)
+    at getProductosIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:14:40)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:376:14)
+[2023-01-06T11:23:57.784] [ERROR] production - ReferenceError: id is not defined
+    at ProductosDaoMongoDb.listarProductoIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:32:61)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async productosService.listarProductosId (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:31:14)
+    at async getProductosIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:14:22)
+[2023-01-06T11:36:29.269] [ERROR] production - TypeError: Cannot read properties of undefined (reading 'nombre')
+    at new DTOProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/dto/DTOService.js:12:24)
+    at productosService.listarProductosId (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:31:53)
+    at getProductosIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:14:40)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:376:14)
+[2023-01-06T11:36:49.883] [ERROR] production - TypeError: Cannot read properties of undefined (reading 'nombre')
+    at new DTOProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/dto/DTOService.js:12:24)
+    at productosService.listarProductosId (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:31:53)
+    at getProductosIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:14:40)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:376:14)
+[2023-01-06T11:38:11.907] [ERROR] production - TypeError: Cannot read properties of null (reading 'nombre')
+    at new DTOProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/dto/DTOService.js:12:24)
+    at productosService.listarProductosId (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:31:53)
+    at getProductosIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:14:40)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:376:14)
+[2023-01-06T11:47:36.661] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo modificar el producto solicitado',
+  detalle: ReferenceError: product is not defined
+      at ProductosDaoMongoDb.editarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:68:7)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async productosService.editarProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:10:14)
+      at async putEditarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:30:5)
+}
+[2023-01-06T11:48:17.324] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo modificar el producto solicitado',
+  detalle: ReferenceError: product is not defined
+      at ProductosDaoMongoDb.editarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:69:7)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async productosService.editarProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:10:14)
+      at async putEditarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:30:5)
+}
+[2023-01-06T12:13:30.019] [ERROR] production - TypeError: carritoDao.listarCarritos is not a function
+    at sessionService.listar (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/sesion.service.js:42:41)
+    at profile (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/sesionUsers.js:24:41)
+[2023-01-06T12:17:02.289] [ERROR] production - Por favor, vuelva a introducir la contraseña
+[2023-01-06T14:37:29.321] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: Error {
+    status: 500,
+    descripcion: 'No existe producto con el ID: 63b832b0a0d93f268eaa0499',
+    detalle: TypeError: this.collection.findById is not a function
+        at ProductoMongoDb.listarProductoIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:27:46)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5)
+        at async CarritoDaoMongoDb.agregarProductoCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:142:17)
+        at async carritoService.agregarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/carrito.service.js:38:23)
+        at async postAgregarCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/carrito.js:23:5)
+  }
+}
+[2023-01-06T14:52:21.421] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No existe producto con el ID: [object Object]',
+  detalle: CastError: Cast to ObjectId failed for value "DTOProducto {
+    nombre: undefined,
+    descri: undefined,
+    codigo: undefined,
+    precio: undefined,
+    stock: undefined,
+    foto: undefined,
+    id: undefined
+  }" (type DTOProducto) at path "_id" for model "producto"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"DTOProducto {\n' +
+      '  nombre: undefined,\n' +
+      '  descri: undefined,\n' +
+      '  codigo: undefined,\n' +
+      '  precio: undefined,\n' +
+      '  stock: undefined,\n' +
+      '  foto: undefined,\n' +
+      '  id: undefined\n' +
+      '}"',
+    kind: 'ObjectId',
+    value: DTOProducto {
+      nombre: undefined,
+      descri: undefined,
+      codigo: undefined,
+      precio: undefined,
+      stock: undefined,
+      foto: undefined,
+      id: undefined
+    },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'DTOProducto'
+  }
+}
+[2023-01-06T14:52:52.015] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No existe producto con el ID: [object Object]',
+  detalle: CastError: Cast to ObjectId failed for value "DTOProducto {
+    nombre: undefined,
+    descri: undefined,
+    codigo: undefined,
+    precio: undefined,
+    stock: undefined,
+    foto: undefined,
+    id: '63b832b0a0d93f268eaa0499'
+  }" (type DTOProducto) at path "_id" for model "producto"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"DTOProducto {\n' +
+      '  nombre: undefined,\n' +
+      '  descri: undefined,\n' +
+      '  codigo: undefined,\n' +
+      '  precio: undefined,\n' +
+      '  stock: undefined,\n' +
+      '  foto: undefined,\n' +
+      "  id: '63b832b0a0d93f268eaa0499'\n" +
+      '}"',
+    kind: 'ObjectId',
+    value: DTOProducto {
+      nombre: undefined,
+      descri: undefined,
+      codigo: undefined,
+      precio: undefined,
+      stock: undefined,
+      foto: undefined,
+      id: '63b832b0a0d93f268eaa0499'
+    },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'DTOProducto'
+  }
+}
+[2023-01-06T14:55:14.578] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo modificar el producto solicitado',
+  detalle: TypeError: Cannot read properties of undefined (reading 'nombre')
+      at ProductosDaoMongoDb.editarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:61:29)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async productosService.editarProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:10:14)
+      at async putEditarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:30:5)
+}
+[2023-01-06T14:55:41.457] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo modificar el producto solicitado',
+  detalle: ReferenceError: product is not defined
+      at ProductosDaoMongoDb.editarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:70:7)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async productosService.editarProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:10:14)
+      at async putEditarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:30:5)
+}
+[2023-01-06T14:56:04.177] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo modificar el producto solicitado',
+  detalle: ReferenceError: product is not defined
+      at ProductosDaoMongoDb.editarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:71:7)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async productosService.editarProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:10:14)
+      at async putEditarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:30:5)
+}
+[2023-01-06T14:57:21.575] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo modificar el producto solicitado',
+  detalle: ReferenceError: product is not defined
+      at ProductosDaoMongoDb.editarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:70:7)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async productosService.editarProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:10:14)
+      at async putEditarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:30:5)
+}
+[2023-01-06T15:11:39.142] [ERROR] production - TypeError: Cannot read properties of undefined (reading 'length')
+    at sessionService.listarProductoCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/sesion.service.js:16:36)
+    at async carrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/sesionUsers.js:46:31)
+[2023-01-06T15:12:14.015] [ERROR] production - TypeError: Cannot read properties of undefined (reading 'length')
+    at sessionService.listarProductoCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/sesion.service.js:16:36)
+    at async carrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/sesionUsers.js:46:31)
+[2023-01-06T16:05:27.310] [ERROR] production - El usuario no existe
+[2023-01-06T16:05:48.124] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: CastError: Cast to ObjectId failed for value "pe" (type string) at path "_id" for model "carritos"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"pe"',
+    kind: 'ObjectId',
+    value: 'pe',
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'string'
+  }
+}
+[2023-01-06T16:06:06.624] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: CastError: Cast to ObjectId failed for value "pe" (type string) at path "_id" for model "carritos"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"pe"',
+    kind: 'ObjectId',
+    value: 'pe',
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'string'
+  }
+}
+[2023-01-06T16:06:46.453] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: CastError: Cast to ObjectId failed for value "pe" (type string) at path "_id" for model "carritos"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"pe"',
+    kind: 'ObjectId',
+    value: 'pe',
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'string'
+  }
+}
+[2023-01-06T16:08:57.081] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: CastError: Cast to ObjectId failed for value "pe" (type string) at path "_id" for model "carritos"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"pe"',
+    kind: 'ObjectId',
+    value: 'pe',
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'string'
+  }
+}
+[2023-01-06T16:10:38.404] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: CastError: Cast to ObjectId failed for value "pe" (type string) at path "_id" for model "carritos"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"pe"',
+    kind: 'ObjectId',
+    value: 'pe',
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'string'
+  }
+}
+[2023-01-06T16:12:13.584] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: CastError: Cast to ObjectId failed for value "pe" (type string) at path "_id" for model "carritos"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"pe"',
+    kind: 'ObjectId',
+    value: 'pe',
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'string'
+  }
+}
+[2023-01-06T16:15:27.321] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: CastError: Cast to ObjectId failed for value "pe" (type string) at path "_id" for model "carritos"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"pe"',
+    kind: 'ObjectId',
+    value: 'pe',
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'string'
+  }
+}
+[2023-01-06T16:17:18.430] [ERROR] production - El usuario no existe
+[2023-01-06T16:28:48.982] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: CastError: Cast to ObjectId failed for value "DTOCarrito {
+    id: '63b875e034320304bbe926ce',
+    ident: '63b873b439f6ab4a5eaf63e5'
+  }" (type DTOCarrito) at path "_id" for model "carritos"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"DTOCarrito {\n' +
+      "  id: '63b875e034320304bbe926ce',\n" +
+      "  ident: '63b873b439f6ab4a5eaf63e5'\n" +
+      '}"',
+    kind: 'ObjectId',
+    value: DTOCarrito {
+      id: '63b875e034320304bbe926ce',
+      ident: '63b873b439f6ab4a5eaf63e5'
+    },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'DTOCarrito'
+  }
+}
+[2023-01-06T16:43:30.528] [ERROR] production - Por favor, vuelva a introducir la contraseña
+[2023-01-06T16:50:13.413] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: Error {
+    status: 500,
+    descripcion: 'No existe producto con el ID: undefined',
+    detalle: ReferenceError: Cannot access 'producto' before initialization
+        at ProductoMongoDb.listarProductoIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:27:55)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5)
+        at async CarritoDaoMongoDb.agregarProductoCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:145:17)
+        at async carritoService.agregarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/carrito.service.js:39:23)
+        at async postAgregarCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/carrito.js:23:5)
+  }
+}
+[2023-01-06T16:50:31.069] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: Error {
+    status: 500,
+    descripcion: 'No existe producto con el ID: undefined',
+    detalle: ReferenceError: Cannot access 'producto' before initialization
+        at ProductoMongoDb.listarProductoIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:27:55)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5)
+        at async CarritoDaoMongoDb.agregarProductoCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:145:17)
+        at async carritoService.agregarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/carrito.service.js:39:23)
+        at async postAgregarCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/carrito.js:23:5)
+  }
+}
+[2023-01-06T17:00:47.437] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: Error {
+    status: 500,
+    descripcion: 'No existe producto con el ID: undefined',
+    detalle: ReferenceError: Cannot access 'producto' before initialization
+        at ProductoMongoDb.listarProductoIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:27:55)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5)
+        at async CarritoDaoMongoDb.agregarProductoCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:145:17)
+        at async carritoService.agregarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/carrito.service.js:39:23)
+        at async postAgregarCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/carrito.js:23:5)
+  }
+}
+[2023-01-06T17:01:01.909] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: Error {
+    status: 500,
+    descripcion: 'No existe producto con el ID: undefined',
+    detalle: ReferenceError: Cannot access 'producto' before initialization
+        at ProductoMongoDb.listarProductoIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:27:55)
+        at runMicrotasks (<anonymous>)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5)
+        at async CarritoDaoMongoDb.agregarProductoCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:145:17)
+        at async carritoService.agregarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/carrito.service.js:39:23)
+        at async postAgregarCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/carrito.js:23:5)
+  }
+}
+[2023-01-06T17:02:30.901] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: Error {
+    status: 500,
+    descripcion: 'No existe producto con el ID: undefined',
+    detalle: ReferenceError: Cannot access 'producto' before initialization
+        at ProductoMongoDb.listarProductoIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:27:55)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5)
+        at async CarritoDaoMongoDb.agregarProductoCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:145:17)
+        at async carritoService.agregarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/carrito.service.js:39:23)
+        at async postAgregarCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/carrito.js:23:5)
+  }
+}
+[2023-01-07T20:32:17.750] [ERROR] production - ReferenceError: id is not defined
+    at ProductosDaoMongoDb.listarProductoIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:30:61)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async productosService.listarProductosId (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:31:14)
+    at async getProductosIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:14:22)
+[2023-01-07T20:32:29.163] [ERROR] production - ReferenceError: id is not defined
+    at ProductosDaoMongoDb.listarProductoIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:30:61)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async productosService.listarProductosId (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:31:14)
+    at async getProductosIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:14:22)
+[2023-01-07T20:32:30.972] [ERROR] production - ReferenceError: id is not defined
+    at ProductosDaoMongoDb.listarProductoIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:30:61)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async productosService.listarProductosId (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:31:14)
+    at async getProductosIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:14:22)
+[2023-01-07T20:33:01.708] [ERROR] production - ReferenceError: id is not defined
+    at ProductosDaoMongoDb.listarProductoIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:30:61)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async productosService.listarProductosId (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:31:14)
+    at async getProductosIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:14:22)
+[2023-01-07T20:59:59.282] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: ReferenceError: id is not defined
+      at ProductoMongoDb.listarProductoIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:30:61)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async CarritoDaoMongoDb.agregarProductoCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:145:17)
+      at async carritoService.agregarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/carrito.service.js:39:23)
+      at async postAgregarCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/carrito.js:23:5)
+}
+[2023-01-07T21:00:10.100] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: ReferenceError: id is not defined
+      at ProductoMongoDb.listarProductoIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:30:61)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async CarritoDaoMongoDb.agregarProductoCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:145:17)
+      at async carritoService.agregarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/carrito.service.js:39:23)
+      at async postAgregarCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/carrito.js:23:5)
+}
+[2023-01-07T21:03:05.233] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: ReferenceError: id is not defined
+      at ProductoMongoDb.listarProductoIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:30:61)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async CarritoDaoMongoDb.agregarProductoCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:145:17)
+      at async carritoService.agregarProducto (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/carrito.service.js:39:23)
+      at async postAgregarCarrito (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/carrito.js:23:5)
+}
+[2023-01-08T17:28:07.328] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No se pudo agregar el producto a la base de datos.',
+  detalle: MongoServerError: E11000 duplicate key error collection: ecommerce.productos index: _id_ dup key: { _id: ObjectId('63b832b0a0d93f268eaa0499') }
+      at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:53:33
+      at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:299:25
+      at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:212:17
+      at handleOperationResult (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:284:20)
+      at Connection.onMessage (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:219:9)
+      at MessageStream.<anonymous> (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:60:60)
+      at MessageStream.emit (node:events:513:28)
+      at processIncomingData (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+      at MessageStream._write (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+      at writeOrBuffer (node:internal/streams/writable:391:12) {
+    index: 0,
+    code: 11000,
+    keyPattern: { _id: 1 },
+    keyValue: { _id: new ObjectId("63b832b0a0d93f268eaa0499") },
+    [Symbol(errorLabels)]: Set(0) {}
+  }
+}
+[2023-01-08T17:54:15.145] [ERROR] production - CastError: Cast to ObjectId failed for value "DTOUser { user: '63b8631e66c206a51174d62d' }" (type DTOUser) at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+    at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"DTOUser { user: '63b8631e66c206a51174d62d' }"`,
+  kind: 'ObjectId',
+  value: DTOUser { user: '63b8631e66c206a51174d62d' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+      at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+  valueType: 'DTOUser'
+}
+[2023-01-08T17:55:25.520] [ERROR] production - CastError: Cast to ObjectId failed for value "DTOUser { user: undefined }" (type DTOUser) at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+    at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"DTOUser { user: undefined }"',
+  kind: 'ObjectId',
+  value: DTOUser { user: undefined },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+      at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+  valueType: 'DTOUser'
+}
+[2023-01-08T17:57:01.328] [ERROR] production - CastError: Cast to ObjectId failed for value "DTOUser { user: undefined }" (type DTOUser) at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+    at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"DTOUser { user: undefined }"',
+  kind: 'ObjectId',
+  value: DTOUser { user: undefined },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+      at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+  valueType: 'DTOUser'
+}
+[2023-01-08T17:57:25.288] [ERROR] production - CastError: Cast to ObjectId failed for value "DTOUser { user: '63b8631e66c206a51174d62d' }" (type DTOUser) at path "_id" for model "User"
+    at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+    at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"DTOUser { user: '63b8631e66c206a51174d62d' }"`,
+  kind: 'ObjectId',
+  value: DTOUser { user: '63b8631e66c206a51174d62d' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+      at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+  valueType: 'DTOUser'
+}
+[2023-01-08T18:30:32.509] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'No existe producto con el ID: V',
+  detalle: CastError: Cast to ObjectId failed for value "V" (type string) at path "_id" for model "producto"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"V"',
+    kind: 'ObjectId',
+    value: 'V',
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'string'
+  }
+}
+[2023-01-08T18:33:25.721] [ERROR] production - ReferenceError: id is not defined
+    at ProductosDaoMongoDb.listarProductoIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/src/container/db/mongo.js:31:61)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async productosService.listarProductosId (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:32:14)
+    at async getProductosIdent (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:14:22)
+[2023-01-08T18:35:41.829] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: Error {
+    status: 500,
+    descripcion: 'No existe producto con el ID: [object Object]',
+    detalle: CastError: Cast to ObjectId failed for value "DTOCarrito {
+      id: '63b875e034320304bbe926ce',
+      ident: '63b832b0a0d93f268eaa0499'
+    }" (type DTOCarrito) at path "_id" for model "producto"
+        at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+        at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      messageFormat: undefined,
+      stringValue: '"DTOCarrito {\n' +
+        "  id: '63b875e034320304bbe926ce',\n" +
+        "  ident: '63b832b0a0d93f268eaa0499'\n" +
+        '}"',
+      kind: 'ObjectId',
+      value: [DTOCarrito],
+      path: '_id',
+      reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+          at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+          at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+          at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+          at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+          at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+          at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+          at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+          at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+          at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+          at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+      valueType: 'DTOCarrito'
+    }
+  }
+}
+[2023-01-08T18:37:32.224] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: Error {
+    status: 500,
+    descripcion: 'No existe producto con el ID: [object Object]',
+    detalle: CastError: Cast to ObjectId failed for value "DTOCarrito {
+      id: '63b875e034320304bbe926ce',
+      ident: '63b832b0a0d93f268eaa0499'
+    }" (type DTOCarrito) at path "_id" for model "producto"
+        at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+        at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      messageFormat: undefined,
+      stringValue: '"DTOCarrito {\n' +
+        "  id: '63b875e034320304bbe926ce',\n" +
+        "  ident: '63b832b0a0d93f268eaa0499'\n" +
+        '}"',
+      kind: 'ObjectId',
+      value: [DTOCarrito],
+      path: '_id',
+      reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+          at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+          at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+          at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+          at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+          at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+          at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+          at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+          at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+          at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+          at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+      valueType: 'DTOCarrito'
+    }
+  }
+}
+[2023-01-08T18:38:14.100] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: Error {
+    status: 500,
+    descripcion: 'No existe producto con el ID: [object Object]',
+    detalle: CastError: Cast to ObjectId failed for value "DTOCarrito {
+      id: '63b875e034320304bbe926ce',
+      ident: '63b832b0a0d93f268eaa0499'
+    }" (type DTOCarrito) at path "_id" for model "producto"
+        at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+        at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      messageFormat: undefined,
+      stringValue: '"DTOCarrito {\n' +
+        "  id: '63b875e034320304bbe926ce',\n" +
+        "  ident: '63b832b0a0d93f268eaa0499'\n" +
+        '}"',
+      kind: 'ObjectId',
+      value: [DTOCarrito],
+      path: '_id',
+      reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+          at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+          at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+          at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:25:12)
+          at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+          at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+          at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+          at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+          at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+          at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:347:32)
+          at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+      valueType: 'DTOCarrito'
+    }
+  }
+}
+[2023-01-09T11:10:22.665] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: DTOCarrito { id: '63bb7bfc9e78fe23ed763297', ident: '' } }" (type Object) at path "_id" for model "carritos"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: DTOCarrito { id: '63bb7bfc9e78fe23ed763297', ident: '' } }"`,
+    kind: 'ObjectId',
+    value: { _id: [DTOCarrito] },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:20:14)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:291:34)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'Object'
+  }
+}
+[2023-01-09T11:10:43.351] [ERROR] production - Error {
+  status: 500,
+  descripcion: 'Hubo un error, vuelva a intentarlo.',
+  detalle: CastError: Cast to ObjectId failed for value "{ _id: DTOCarrito { id: '63bc1d7085cde1d516169c1e', ident: '' } }" (type Object) at path "_id" for model "carritos"
+      at model.Query.exec (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4884:21)
+      at model.Query.Query.then (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:4983:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: `"{ _id: DTOCarrito { id: '63bc1d7085cde1d516169c1e', ident: '' } }"`,
+    kind: 'ObjectId',
+    value: { _id: [DTOCarrito] },
+    path: '_id',
+    reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+        at new BSONTypeError (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\error.js:41:28)
+        at new ObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\bson\lib\objectid.js:67:23)
+        at castObjectId (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast\objectid.js:20:14)
+        at ObjectId.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1201:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1648:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1636:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\schematype.js:1612:20)
+        at cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\cast.js:291:34)
+        at model.Query.Query.cast (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\mongoose\lib\query.js:5312:12),
+    valueType: 'Object'
+  }
+}
+[2023-01-09T14:50:13.397] [ERROR] production - TypeError: productosDao.listarProducto is not a function
+    at productosService.listarProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:17:33)
+    at getProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:7:44)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:175:3)
+[2023-01-09T14:50:13.993] [ERROR] production - TypeError: productosDao.listarProducto is not a function
+    at productosService.listarProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:17:33)
+    at getProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:7:44)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:175:3)
+[2023-01-09T14:50:15.280] [ERROR] production - TypeError: productosDao.listarProducto is not a function
+    at productosService.listarProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:17:33)
+    at getProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:7:44)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:175:3)
+[2023-01-09T14:50:43.054] [ERROR] production - TypeError: productosDao.listarProducto is not a function
+    at productosService.listarProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:17:33)
+    at getProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:7:44)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:175:3)
+[2023-01-09T14:50:53.267] [ERROR] production - TypeError: productosDao.listarProducto is not a function
+    at productosService.listarProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/services/productos.service.js:17:33)
+    at getProductos (file:///C:/Users/Gateway/OneDrive/Escritorio/GIT/testing/segundo-trabajo-final/controllers/productos.js:7:44)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Gateway\OneDrive\Escritorio\GIT\testing\segundo-trabajo-final\node_modules\express\lib\router\index.js:175:3)

@@ -22,7 +22,7 @@ export let producto = [
   },
 ];
 
-class MemoriaDaoProducto extends memoriaProducto {
+export class MemoriaDaoProducto extends memoriaProducto {
   constructor() {
     super(producto);
   }

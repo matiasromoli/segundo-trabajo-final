@@ -109,8 +109,6 @@ export class Carrito {
     const c = listaDeCarritos.find((c) => c.id === parseInt(ident));
     const resultadoBusqueda = listaDeCarritos.indexOf(c);
 
-    // existe - no existe
-
     if (resultadoBusqueda === -1) {
       return `No existe el carrito con el id: ${ident}`;
     } else {
@@ -124,7 +122,6 @@ export class Carrito {
     const listaDeCarritos = await this.listarCarrito();
     if (!listaDeCarritos[ident - 1]) return `El carrito: ${ident} no existe.`;
 
-    //obtener productos
     const obtenerProducto = new Producto("./db/producto.json");
     const listaProductos = await obtenerProducto.listarProducto();
 
@@ -132,11 +129,10 @@ export class Carrito {
     if (!p) {
       return `El producto no existe.`;
     } else {
-      // carrito
+
       const carrito = listaDeCarritos[ident - 1].productos;
       carrito.push(p);
 
-      // guardar
       listaDeCarritos[ident - 1] = { ...listaDeCarritos[ident - 1] };
       await fs.writeFile(this.ruta, JSON.stringify(listaDeCarritos, null, 2));
       return `Producto agregado exitosamente al carrito ${ident}.`;
@@ -145,9 +141,9 @@ export class Carrito {
   async mostrarProductoCarrito(ident) {
     const listaDeCarritos = await this.listarCarrito();
     const carritoID = listaDeCarritos.find((c) => c.id === parseInt(ident));
-    // existencia - carrito
+
     if (!carritoID) return `No existe el carrito con el id: ${ident}`;
-    // carrito vacío o no
+ 
     if (carritoID.productos.length === 0) {
       return "El carrito está vacío";
     } else {
@@ -157,7 +153,6 @@ export class Carrito {
   async deleteProductoCarrito(ident, productoID) {
     const listarCarrito = await this.listarCarrito();
     if (!listarCarrito[ident - 1]) return "No existe el carrito";
-    //Si existe, seguí
 
     const c = listarCarrito[ident - 1].productos.find(
       (c) => c.id === parseInt(productoID)

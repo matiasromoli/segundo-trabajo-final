@@ -2,9 +2,9 @@ import { Carrito } from "../../container/archivo.js";
 const __dirname = path.resolve();
 import path from "path";
 
-class CarritoDaoArchivo extends Carrito {
+export class CarritoDaoArchivo extends Carrito {
   constructor() {
-    super(path.join(__dirname, "/db/carrito.json"));
+    super(path.join(__dirname, "/json/carrito.json"));
   }
 }
 

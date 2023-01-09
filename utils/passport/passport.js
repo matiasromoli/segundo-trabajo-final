@@ -1,4 +1,3 @@
-import { user } from "../../src/model/modelUsuario.js";
 import * as passLocal from "passport-local";
 import passport from "passport";
 

@@ -5,6 +5,12 @@ import { config } from "./config/config.js";
 import express from "express";
 const app = express();
 
+import "./src/classes/DAOFactoryProducto.js";
+import "./src/classes/DAOFactoryCarrito.js";
+
+import { graphqlHTTP } from "express-graphql";
+import schema from "./src/graphql/schema.js";
+
 import { URL } from "./utils/index.js";
 const __dirname = URL(import.meta.url);
 import path from "path";
@@ -52,6 +58,14 @@ app.use(
 app.use("/api/productos", productos);
 app.use("/api/carrito", carrito);
 app.use("/", sesion);
+
+app.use(
+  "/api/graphql",
+  graphqlHTTP({
+    schema: schema,
+    graphiql: true,
+  })
+);
 
 app.use(express.static(path.join(__dirname, "public")));
 app.set("view engine", "ejs");

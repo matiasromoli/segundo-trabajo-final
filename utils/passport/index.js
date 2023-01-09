@@ -1,6 +1,7 @@
 import { mongoClient } from "../../src/classes/mongo/mongo.client.js";
+import { Usuario } from "../../src/classes/class.DTO.js";
 import { user } from "../../src/model/modelUsuario.js";
-import { Usuario } from "../../src/classes/class.js";
+
 
 const mongo = mongoClient.getInstance();
 

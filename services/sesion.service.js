@@ -1,18 +1,17 @@
-import Producto from "../src/model/modelProducto.js";
+import { DaoFactoryProducto } from "../src/classes/DAOFactoryProducto.js";
+import { DaoFactoryCarrito } from "../src/classes/DAOFactoryCarrito.js";
 import { user } from "../src/model/modelUsuario.js";
-import Carrito from "../src/model/modelCarrito.js";
-
-import { ProductoMongoDb } from "../src/container/db/mongo.js";
-import { CarritoMongoDb } from "../src/container/db/mongo.js";
-
-const productoApp = new ProductoMongoDb(Producto);
-const carritosApp = new CarritoMongoDb(Carrito);
+import { DTOUser } from "../src/dto/DTOService.js";
 import { logger } from "../config/logger.js";
+
+const productosDao = DaoFactoryProducto.get();
+const carritoDao = DaoFactoryCarrito.get();
 
 export class sessionService {
   async listarProductoCarrito(id) {
     try {
-      const carritos = await carritosApp.mostrarProductoCarrito(id);
+      const carritos = await carritoDao.mostrarProductoCarrito(id, "");
+
       let carrito;
 
       for (var i = 0; i < carritos.length; i++) {
@@ -26,7 +25,8 @@ export class sessionService {
   }
   async usuario(datosUsuario) {
     try {
-      const data = await user.findById(datosUsuario);
+      const usuario = new DTOUser(datosUsuario);
+      const data = await user.findById(usuario.user);
       return data;
     } catch (error) {
       return logger.error(error);
@@ -34,7 +34,7 @@ export class sessionService {
   }
   async listarProducto() {
     try {
-      const productos = await productoApp.listarProducto();
+      const productos = await productosDao.listarProducto();
       return productos;
     } catch (error) {
       return logger.error(error);
@@ -42,7 +42,7 @@ export class sessionService {
   }
   async listar() {
     try {
-      const carritos = await carritosApp.listarCarrito();
+      const carritos = await carritoDao.listarCarrito();
       return carritos;
     } catch (error) {
       return logger.error(error);

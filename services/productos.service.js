@@ -1,5 +1,8 @@
-import { productosDao } from "../src/daos/index.js";
+import { DaoFactoryProducto } from "../src/classes/DAOFactoryProducto.js";
+import { DTOProducto } from "../src/dto/DTOService.js";
 import { logger } from "../config/logger.js";
+
+const productosDao = DaoFactoryProducto.get();
 
 export class productosService {
   async editarProductos(id, producto) {
@@ -32,7 +35,7 @@ export class productosService {
   }
   async agregarProducto(body) {
     try {
-      return await productosDao.agregarNuevoProducto(body);
+      return await productosDao.agregarNuevoProducto(new DTOProducto(body));
     } catch (error) {
       return logger.error(error);
     }

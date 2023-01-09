@@ -1,7 +1,4 @@
 import { producto } from "../daos/producto/productoDaoMemoria.js";
-import { logger } from "../../utils/log/logger.js";
-
-logger.info("Estamos utilizando memoria");
 
 export class memoriaProducto {
   constructor(producto) {
